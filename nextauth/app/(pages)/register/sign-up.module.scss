@@ -1,0 +1,108 @@
+.container_sign_up {
+    margin-top: calc(40px + 2vw) ;
+  // padding-top: 50px;
+
+  border: 0;
+  width: calc(320px + 10vw);
+  @media screen and (min-width: 1000px) {
+    padding: 68px 80px  35px  80px;
+    border: solid 1px #000;
+  }
+
+  h1 {
+    position: relative;
+    font-size: calc(38px + 1vw);
+    line-height: 52px;
+    text-align: center;
+    @media screen and (min-width: 1000px) {
+      text-align: start;
+    }
+  }
+  .text_wellcom {
+    padding-top: 30px;
+    font-size: calc(10px + 0.5vw);
+    line-height: 24px;
+    text-align: center;
+    @media screen and (min-width: 1000px) {
+      text-align: start;
+    }
+  }
+
+  form {
+    fieldset {
+      padding: 5px 5px 5px 15px;
+
+      border-radius: 5px;
+      legend {
+        width: auto;
+        float: none;
+        font-size: 12px;
+        margin-bottom: -10px;
+        margin: 0;
+      }
+      input {
+        border: none;
+        padding: 0;
+      }
+    }
+  }
+  .forgot_password {
+  right: 11px;
+}
+
+.or_line {
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+}
+.or_line:before,
+.or_line:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.or_line:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.or_line:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.password_legend {
+margin-top: 16px;
+}
+
+.section_email_password {
+  margin-top: 32px;
+}
+
+.sign_in_btn {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.countinue_google {
+  margin: 12px 0;
+}
+.name_surname{
+    margin-top: 14px;
+}
+
+.account_click_here{
+  margin-top: 25px;
+}
+
+}
+
+
+.privacy_police{
+    text-align: center;
+    font-size: calc(10px + 0.2vw);
+}
+
